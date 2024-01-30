@@ -1,0 +1,245 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* fr_connexion/index.html.twig */
+class __TwigTemplate_71abe137af0cd4709d1b969d003ed5c1 extends Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->blocks = [
+            'title' => [$this, 'block_title'],
+            'body' => [$this, 'block_body'],
+        ];
+    }
+
+    protected function doGetParent(array $context)
+    {
+        // line 1
+        return "base.html.twig";
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "fr_connexion/index.html.twig"));
+
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "fr_connexion/index.html.twig"));
+
+        $this->parent = $this->loadTemplate("base.html.twig", "fr_connexion/index.html.twig", 1);
+        $this->parent->display($context, array_merge($this->blocks, $blocks));
+        
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
+
+        
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
+
+    }
+
+    // line 3
+    public function block_title($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
+
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
+
+        echo "Connexion";
+        
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
+
+        
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
+
+    }
+
+    // line 5
+    public function block_body($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
+
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
+
+        // line 6
+        echo "<style>
+    .test2 { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<!--Nav bar-->
+<nav class=\"navbar navbar-expand-lg bg-primary\" data-bs-theme=\"dark\">
+    <div class=\"container-fluid\">
+      <a class=\"navbar-brand\">Eportfolio</a>
+      <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+        <span class=\"navbar-toggler-icon\"></span>
+      </button>
+      <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
+        <ul class=\"navbar-nav me-auto\">
+          <li class=\"nav-item\">
+            <a class=\"nav-link active\" href=\"accueil\">Accueil</a>
+          </li>
+          <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"cv\">CV</a>
+          </li>
+          <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"competence\">Compétence</a>
+          </li>
+        </ul>
+        <form class=\"d-flex\">
+          <a class=\"nav-link\" href=\"connexion\"><button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">Connexion</button></a>
+          <span class=\"visually-hidden\">(current)</span>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!--connexion-->
+<body>
+    <div class=\"card text-white bg-primary mb-3\" style=\"max-width: 50%; margin-left: 25%; margin-top: 1%;\">
+        <div class=\"card-header\">Connexion</div>
+        <div class=\"card-body\">
+            <form>
+                <div class=\"form-group\">
+                  <label for=\"exampleInputEmail1\" class=\"form-label mt-4\">Adresse mail</label>
+                  <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" aria-describedby=\"emailHelp\" placeholder=\"Entrer votre adresse email\">
+                  <small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share your email with anyone else.</small>
+                </div>
+                <div class=\"form-group\">
+                  <label for=\"exampleInputPassword1\" class=\"form-label mt-4\">Mot de passe</label>
+                  <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword1\" placeholder=\"Entrer un mot de passe\" autocomplete=\"off\">
+                </div>
+                <br>
+                <div class=\"modal-footer\">
+                    <button href=\"./cv.pdf\" type=\"button\" class=\"btn btn-primary\">Confirmer</button>
+                    <button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">Annuler</button>
+                </div>
+            </form>
+        </div>
+      </div>
+</body>
+
+";
+        
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
+
+        
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
+
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getTemplateName()
+    {
+        return "fr_connexion/index.html.twig";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDebugInfo()
+    {
+        return array (  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("{% extends 'base.html.twig' %}
+
+{% block title %}Connexion{% endblock %}
+
+{% block body %}
+<style>
+    .test2 { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<!--Nav bar-->
+<nav class=\"navbar navbar-expand-lg bg-primary\" data-bs-theme=\"dark\">
+    <div class=\"container-fluid\">
+      <a class=\"navbar-brand\">Eportfolio</a>
+      <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+        <span class=\"navbar-toggler-icon\"></span>
+      </button>
+      <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
+        <ul class=\"navbar-nav me-auto\">
+          <li class=\"nav-item\">
+            <a class=\"nav-link active\" href=\"accueil\">Accueil</a>
+          </li>
+          <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"cv\">CV</a>
+          </li>
+          <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"competence\">Compétence</a>
+          </li>
+        </ul>
+        <form class=\"d-flex\">
+          <a class=\"nav-link\" href=\"connexion\"><button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">Connexion</button></a>
+          <span class=\"visually-hidden\">(current)</span>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!--connexion-->
+<body>
+    <div class=\"card text-white bg-primary mb-3\" style=\"max-width: 50%; margin-left: 25%; margin-top: 1%;\">
+        <div class=\"card-header\">Connexion</div>
+        <div class=\"card-body\">
+            <form>
+                <div class=\"form-group\">
+                  <label for=\"exampleInputEmail1\" class=\"form-label mt-4\">Adresse mail</label>
+                  <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" aria-describedby=\"emailHelp\" placeholder=\"Entrer votre adresse email\">
+                  <small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share your email with anyone else.</small>
+                </div>
+                <div class=\"form-group\">
+                  <label for=\"exampleInputPassword1\" class=\"form-label mt-4\">Mot de passe</label>
+                  <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword1\" placeholder=\"Entrer un mot de passe\" autocomplete=\"off\">
+                </div>
+                <br>
+                <div class=\"modal-footer\">
+                    <button href=\"./cv.pdf\" type=\"button\" class=\"btn btn-primary\">Confirmer</button>
+                    <button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">Annuler</button>
+                </div>
+            </form>
+        </div>
+      </div>
+</body>
+
+{% endblock %}
+", "fr_connexion/index.html.twig", "C:\\Users\\lafer\\Downloads\\github\\Eportfolio2\\Eportfolio\\templates\\fr_connexion\\index.html.twig");
+    }
+}

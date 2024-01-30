@@ -47,29 +47,40 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
         // line 1
         echo "<!DOCTYPE html>
 <html>
+
+
+
     <head>
         <meta charset=\"UTF-8\">
         <title>";
-        // line 5
+        // line 8
         $this->displayBlock('title', $context, $blocks);
         echo "</title>
-        <link rel=\"icon\" href=\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text><text y=%221.3em%22 x=%220.2em%22 font-size=%2276%22 fill=%22%23fff%22>sf</text></svg>\">
+        <link rel=\"icon\" href=\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>\">
+        <link rel= \"stylesheet\" href=\"https://bootswatch.com/5/cerulean/bootstrap.min.css\">
         ";
-        // line 7
+        // line 11
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 9
+        // line 13
         echo "
         ";
-        // line 10
+        // line 14
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 13
+        // line 17
         echo "    </head>
     <body>
         ";
-        // line 15
+        // line 19
         $this->displayBlock('body', $context, $blocks);
-        // line 16
+        // line 20
         echo "    </body>
+
+
+
+<!--Bas de page-->
+<footer class=\"navbar\" style=\"position:fixed; bottom:0; left:50%; transform: translateX(-50%)\">
+    <a>&copy; 2024 ARBEZ-CARME Thomas. Tous droits réservés.</a>
+</footer>
 </html>
 ";
         
@@ -80,7 +91,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 
     }
 
-    // line 5
+    // line 8
     public function block_title($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -99,7 +110,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 
     }
 
-    // line 7
+    // line 11
     public function block_stylesheets($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -109,28 +120,6 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "stylesheets"));
 
-        // line 8
-        echo "        ";
-        
-        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
-
-        
-        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
-
-    }
-
-    // line 10
-    public function block_javascripts($context, array $blocks = [])
-    {
-        $macros = $this->macros;
-        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
-        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
-
-        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
-        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
-
-        // line 11
-        $this->displayBlock('importmap', $context, $blocks);
         // line 12
         echo "        ";
         
@@ -141,7 +130,29 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 
     }
 
-    // line 11
+    // line 14
+    public function block_javascripts($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
+
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
+
+        // line 15
+        $this->displayBlock('importmap', $context, $blocks);
+        // line 16
+        echo "        ";
+        
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
+
+        
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
+
+    }
+
+    // line 15
     public function block_importmap($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -160,7 +171,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 
     }
 
-    // line 15
+    // line 19
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -191,17 +202,21 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  164 => 15,  145 => 11,  135 => 12,  133 => 11,  123 => 10,  113 => 8,  103 => 7,  84 => 5,  72 => 16,  70 => 15,  66 => 13,  64 => 10,  61 => 9,  59 => 7,  54 => 5,  48 => 1,);
+        return array (  175 => 19,  156 => 15,  146 => 16,  144 => 15,  134 => 14,  124 => 12,  114 => 11,  95 => 8,  76 => 20,  74 => 19,  70 => 17,  68 => 14,  65 => 13,  63 => 11,  57 => 8,  48 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<!DOCTYPE html>
 <html>
+
+
+
     <head>
         <meta charset=\"UTF-8\">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        <link rel=\"icon\" href=\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text><text y=%221.3em%22 x=%220.2em%22 font-size=%2276%22 fill=%22%23fff%22>sf</text></svg>\">
+        <link rel=\"icon\" href=\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>\">
+        <link rel= \"stylesheet\" href=\"https://bootswatch.com/5/cerulean/bootstrap.min.css\">
         {% block stylesheets %}
         {% endblock %}
 
@@ -212,6 +227,13 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
     <body>
         {% block body %}{% endblock %}
     </body>
+
+
+
+<!--Bas de page-->
+<footer class=\"navbar\" style=\"position:fixed; bottom:0; left:50%; transform: translateX(-50%)\">
+    <a>&copy; 2024 ARBEZ-CARME Thomas. Tous droits réservés.</a>
+</footer>
 </html>
 ", "base.html.twig", "C:\\Users\\lafer\\Downloads\\github\\Eportfolio2\\Eportfolio\\templates\\base.html.twig");
     }
