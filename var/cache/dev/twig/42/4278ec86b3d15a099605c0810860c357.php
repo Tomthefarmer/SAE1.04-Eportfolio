@@ -67,6 +67,9 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
           </li>
         </ul>
         <form class=\"d-flex\">
+            <a class=\"nav-link\" href=\"https://127.0.0.1:8000/fr/connexion\"><button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">EN</button></a>
+          </form>
+        <form class=\"d-flex\">
           <a class=\"nav-link\" href=\"connexion/\"><button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">Connexion</button></a>
         </form>
       </div>
@@ -76,26 +79,26 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
     <head>
         <meta charset=\"UTF-8\">
         <title>";
-        // line 31
+        // line 34
         $this->displayBlock('title', $context, $blocks);
         echo "</title>
         <link rel=\"icon\" href=\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>\">
         <link rel= \"stylesheet\" href=\"https://bootswatch.com/5/cerulean/bootstrap.min.css\">
         ";
-        // line 34
+        // line 37
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 36
+        // line 39
         echo "
         ";
-        // line 37
-        $this->displayBlock('javascripts', $context, $blocks);
         // line 40
+        $this->displayBlock('javascripts', $context, $blocks);
+        // line 43
         echo "    </head>
     <body>
         ";
-        // line 42
+        // line 45
         $this->displayBlock('body', $context, $blocks);
-        // line 43
+        // line 46
         echo "    </body>
 
 <!--Bas de page-->
@@ -112,7 +115,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 
     }
 
-    // line 31
+    // line 34
     public function block_title($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -131,7 +134,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 
     }
 
-    // line 34
+    // line 37
     public function block_stylesheets($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -141,7 +144,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "stylesheets"));
 
-        // line 35
+        // line 38
         echo "        ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -151,7 +154,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 
     }
 
-    // line 37
+    // line 40
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -161,9 +164,9 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 38
+        // line 41
         $this->displayBlock('importmap', $context, $blocks);
-        // line 39
+        // line 42
         echo "        ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -173,7 +176,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 
     }
 
-    // line 38
+    // line 41
     public function block_importmap($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -192,7 +195,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 
     }
 
-    // line 42
+    // line 45
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -223,7 +226,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  196 => 42,  177 => 38,  167 => 39,  165 => 38,  155 => 37,  145 => 35,  135 => 34,  116 => 31,  99 => 43,  97 => 42,  93 => 40,  91 => 37,  88 => 36,  86 => 34,  80 => 31,  48 => 1,);
+        return array (  199 => 45,  180 => 41,  170 => 42,  168 => 41,  158 => 40,  148 => 38,  138 => 37,  119 => 34,  102 => 46,  100 => 45,  96 => 43,  94 => 40,  91 => 39,  89 => 37,  83 => 34,  48 => 1,);
     }
 
     public function getSourceContext()
@@ -249,6 +252,9 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
             <a class=\"nav-link\" href=\"competence\">Compétence</a>
           </li>
         </ul>
+        <form class=\"d-flex\">
+            <a class=\"nav-link\" href=\"https://127.0.0.1:8000/fr/connexion\"><button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">EN</button></a>
+          </form>
         <form class=\"d-flex\">
           <a class=\"nav-link\" href=\"connexion/\"><button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">Connexion</button></a>
         </form>

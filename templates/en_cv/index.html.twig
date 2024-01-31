@@ -1,0 +1,43 @@
+{% extends 'baseen.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<!--Contenu-->
+<head>   
+    <br>
+    <bloc1 class="card text-white bg-primary mb-3" style="max-width: 50%; text-align: center; margin:0 auto">
+        <div class="card-header">Training</div>
+        <div class="card-body">
+          <h4 class="card-title">BUT Networks and Telecommunications</h4>
+          <p class="card-text">IUT de Roanne<br>
+            2023 - Now
+        </p>
+        <h4 class="card-title">General Baccalaureate</h4>
+        <p class="card-text">Jean Perrin High School, Lyon<br>
+            2020 - 2023
+        </p>
+        <h4 class="card-title">Middle school certificate</h4>
+        <p class="card-text">Jean Perrin Middle School, Lyon<br>
+            2016 - 2020
+        </p>
+        </div>
+    </bloc1>
+    <bloc2 class="card text-white bg-primary mb-3" style="max-width: 50%; text-align: center; margin:0 auto">
+        <div class="card-header">Professional experiences</div>
+        <div class="card-body">
+            <h4 class="card-title">Internship</h4>
+            <p class="card-text">- Service area (customer reception, repairs)<br>
+              - IT asset management (after-sales service, equipment returns)
+          </p>
+        </div>
+    </bloc2>
+    <br>
+</head>
+
+{% endblock %}
