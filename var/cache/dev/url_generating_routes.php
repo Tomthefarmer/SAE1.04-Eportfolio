@@ -18,9 +18,13 @@ return [
     '_profiler_exception' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::body'], [], [['text', '/exception'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], [], []],
     '_profiler_exception_css' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::stylesheet'], [], [['text', '/exception.css'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], [], []],
     'app_fr_accueil' => [[], ['_controller' => 'App\\Controller\\FrAccueilController::index'], [], [['text', '/fr/accueil']], [], [], []],
+    'app_fr_apropos' => [[], ['_controller' => 'App\\Controller\\FrAproposController::index'], [], [['text', '/fr/apropos']], [], [], []],
     'app_fr_competence' => [[], ['_controller' => 'App\\Controller\\FrCompetenceController::index'], [], [['text', '/fr/competence']], [], [], []],
     'app_fr_connexion' => [[], ['_controller' => 'App\\Controller\\FrConnexionController::index'], [], [['text', '/fr/connexion']], [], [], []],
+    'app_fr_cv' => [[], ['_controller' => 'App\\Controller\\FrCvController::index'], [], [['text', '/fr/cv']], [], [], []],
     'App\Controller\FrAccueilController::index' => [[], ['_controller' => 'App\\Controller\\FrAccueilController::index'], [], [['text', '/fr/accueil']], [], [], []],
+    'App\Controller\FrAproposController::index' => [[], ['_controller' => 'App\\Controller\\FrAproposController::index'], [], [['text', '/fr/apropos']], [], [], []],
     'App\Controller\FrCompetenceController::index' => [[], ['_controller' => 'App\\Controller\\FrCompetenceController::index'], [], [['text', '/fr/competence']], [], [], []],
     'App\Controller\FrConnexionController::index' => [[], ['_controller' => 'App\\Controller\\FrConnexionController::index'], [], [['text', '/fr/connexion']], [], [], []],
+    'App\Controller\FrCvController::index' => [[], ['_controller' => 'App\\Controller\\FrCvController::index'], [], [['text', '/fr/cv']], [], [], []],
 ];

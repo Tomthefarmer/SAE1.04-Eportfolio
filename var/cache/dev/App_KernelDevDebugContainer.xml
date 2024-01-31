@@ -357,6 +357,13 @@
         <argument type="service" id=".service_locator.jUv.zyj.App\Controller\FrAccueilController"/>
       </call>
     </service>
+    <service id="App\Controller\FrAproposController" class="App\Controller\FrAproposController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+      <tag name="container.service_subscriber"/>
+      <call method="setContainer">
+        <argument type="service" id=".service_locator.jUv.zyj.App\Controller\FrAproposController"/>
+      </call>
+    </service>
     <service id="App\Controller\FrCompetenceController" class="App\Controller\FrCompetenceController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
       <tag name="container.service_subscriber"/>
@@ -369,6 +376,13 @@
       <tag name="container.service_subscriber"/>
       <call method="setContainer">
         <argument type="service" id=".service_locator.jUv.zyj.App\Controller\FrConnexionController"/>
+      </call>
+    </service>
+    <service id="App\Controller\FrCvController" class="App\Controller\FrCvController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+      <tag name="container.service_subscriber"/>
+      <call method="setContainer">
+        <argument type="service" id=".service_locator.jUv.zyj.App\Controller\FrCvController"/>
       </call>
     </service>
     <service id="argument_metadata_factory" class="Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadataFactory"/>
@@ -6925,12 +6939,18 @@
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\FrAccueilController" class="App\Controller\FrAccueilController" autowire="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\FrAccueilController" class="App\Controller\FrAccueilController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\FrAccueilController" class="App\Controller\FrAccueilController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\FrAproposController" class="App\Controller\FrAproposController" autowire="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\FrAproposController" class="App\Controller\FrAproposController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\FrAproposController" class="App\Controller\FrAproposController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\FrCompetenceController" class="App\Controller\FrCompetenceController" autowire="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\FrCompetenceController" class="App\Controller\FrCompetenceController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\FrCompetenceController" class="App\Controller\FrCompetenceController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\FrConnexionController" class="App\Controller\FrConnexionController" autowire="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\FrConnexionController" class="App\Controller\FrConnexionController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\FrConnexionController" class="App\Controller\FrConnexionController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\FrCvController" class="App\Controller\FrCvController" autowire="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\FrCvController" class="App\Controller\FrCvController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\FrCvController" class="App\Controller\FrCvController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".service_locator.bJ.4HC5" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
@@ -7927,6 +7947,12 @@
       <argument type="service" id="service_container"/>
       <factory service=".service_locator.jUv.zyj" method="withContext"/>
     </service>
+    <service id=".service_locator.jUv.zyj.App\Controller\FrAproposController" class="Symfony\Component\DependencyInjection\ServiceLocator">
+      <tag name="container.service_locator_context" id="App\Controller\FrAproposController"/>
+      <argument>App\Controller\FrAproposController</argument>
+      <argument type="service" id="service_container"/>
+      <factory service=".service_locator.jUv.zyj" method="withContext"/>
+    </service>
     <service id=".service_locator.jUv.zyj.App\Controller\FrCompetenceController" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator_context" id="App\Controller\FrCompetenceController"/>
       <argument>App\Controller\FrCompetenceController</argument>
@@ -7936,6 +7962,12 @@
     <service id=".service_locator.jUv.zyj.App\Controller\FrConnexionController" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator_context" id="App\Controller\FrConnexionController"/>
       <argument>App\Controller\FrConnexionController</argument>
+      <argument type="service" id="service_container"/>
+      <factory service=".service_locator.jUv.zyj" method="withContext"/>
+    </service>
+    <service id=".service_locator.jUv.zyj.App\Controller\FrCvController" class="Symfony\Component\DependencyInjection\ServiceLocator">
+      <tag name="container.service_locator_context" id="App\Controller\FrCvController"/>
+      <argument>App\Controller\FrCvController</argument>
       <argument type="service" id="service_container"/>
       <factory service=".service_locator.jUv.zyj" method="withContext"/>
     </service>

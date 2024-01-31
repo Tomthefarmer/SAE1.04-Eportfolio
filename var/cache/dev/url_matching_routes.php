@@ -15,8 +15,10 @@ return [
         '/_profiler/xdebug' => [[['_route' => '_profiler_xdebug', '_controller' => 'web_profiler.controller.profiler::xdebugAction'], null, null, null, false, false, null]],
         '/_profiler/open' => [[['_route' => '_profiler_open_file', '_controller' => 'web_profiler.controller.profiler::openAction'], null, null, null, false, false, null]],
         '/fr/accueil' => [[['_route' => 'app_fr_accueil', '_controller' => 'App\\Controller\\FrAccueilController::index'], null, null, null, false, false, null]],
+        '/fr/apropos' => [[['_route' => 'app_fr_apropos', '_controller' => 'App\\Controller\\FrAproposController::index'], null, null, null, false, false, null]],
         '/fr/competence' => [[['_route' => 'app_fr_competence', '_controller' => 'App\\Controller\\FrCompetenceController::index'], null, null, null, false, false, null]],
         '/fr/connexion' => [[['_route' => 'app_fr_connexion', '_controller' => 'App\\Controller\\FrConnexionController::index'], null, null, null, false, false, null]],
+        '/fr/cv' => [[['_route' => 'app_fr_cv', '_controller' => 'App\\Controller\\FrCvController::index'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'

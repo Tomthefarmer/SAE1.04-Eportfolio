@@ -47,35 +47,56 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
         // line 1
         echo "<!DOCTYPE html>
 <html>
-
-
+    <!--Nav bar-->
+    <nav class=\"navbar navbar-expand-lg bg-primary\" data-bs-theme=\"dark\">
+    <div class=\"container-fluid\">
+      <a class=\"navbar-brand\">Eportfolio</a>
+      <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+        <span class=\"navbar-toggler-icon\"></span>
+      </button>
+      <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
+        <ul class=\"navbar-nav me-auto\">
+          <li class=\"nav-item\">
+            <a class=\"nav-link active\" href=\"accueil\">Accueil</a>
+          </li>
+          <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"cv\">CV</a>
+          </li>
+          <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"competence\">Compétence</a>
+          </li>
+        </ul>
+        <form class=\"d-flex\">
+          <a class=\"nav-link\" href=\"connexion/\"><button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">Connexion</button></a>
+        </form>
+      </div>
+    </div>
+  </nav>
 
     <head>
         <meta charset=\"UTF-8\">
         <title>";
-        // line 8
+        // line 31
         $this->displayBlock('title', $context, $blocks);
         echo "</title>
         <link rel=\"icon\" href=\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>\">
         <link rel= \"stylesheet\" href=\"https://bootswatch.com/5/cerulean/bootstrap.min.css\">
         ";
-        // line 11
+        // line 34
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 13
+        // line 36
         echo "
         ";
-        // line 14
+        // line 37
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 17
+        // line 40
         echo "    </head>
     <body>
         ";
-        // line 19
+        // line 42
         $this->displayBlock('body', $context, $blocks);
-        // line 20
+        // line 43
         echo "    </body>
-
-
 
 <!--Bas de page-->
 <footer class=\"navbar\" style=\"position:fixed; bottom:0; left:50%; transform: translateX(-50%)\">
@@ -91,7 +112,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 
     }
 
-    // line 8
+    // line 31
     public function block_title($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -110,7 +131,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 
     }
 
-    // line 11
+    // line 34
     public function block_stylesheets($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -120,7 +141,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "stylesheets"));
 
-        // line 12
+        // line 35
         echo "        ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -130,7 +151,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 
     }
 
-    // line 14
+    // line 37
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -140,9 +161,9 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 15
+        // line 38
         $this->displayBlock('importmap', $context, $blocks);
-        // line 16
+        // line 39
         echo "        ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -152,7 +173,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 
     }
 
-    // line 15
+    // line 38
     public function block_importmap($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -171,7 +192,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 
     }
 
-    // line 19
+    // line 42
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -202,15 +223,38 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  175 => 19,  156 => 15,  146 => 16,  144 => 15,  134 => 14,  124 => 12,  114 => 11,  95 => 8,  76 => 20,  74 => 19,  70 => 17,  68 => 14,  65 => 13,  63 => 11,  57 => 8,  48 => 1,);
+        return array (  196 => 42,  177 => 38,  167 => 39,  165 => 38,  155 => 37,  145 => 35,  135 => 34,  116 => 31,  99 => 43,  97 => 42,  93 => 40,  91 => 37,  88 => 36,  86 => 34,  80 => 31,  48 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<!DOCTYPE html>
 <html>
-
-
+    <!--Nav bar-->
+    <nav class=\"navbar navbar-expand-lg bg-primary\" data-bs-theme=\"dark\">
+    <div class=\"container-fluid\">
+      <a class=\"navbar-brand\">Eportfolio</a>
+      <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+        <span class=\"navbar-toggler-icon\"></span>
+      </button>
+      <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
+        <ul class=\"navbar-nav me-auto\">
+          <li class=\"nav-item\">
+            <a class=\"nav-link active\" href=\"accueil\">Accueil</a>
+          </li>
+          <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"cv\">CV</a>
+          </li>
+          <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"competence\">Compétence</a>
+          </li>
+        </ul>
+        <form class=\"d-flex\">
+          <a class=\"nav-link\" href=\"connexion/\"><button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">Connexion</button></a>
+        </form>
+      </div>
+    </div>
+  </nav>
 
     <head>
         <meta charset=\"UTF-8\">
@@ -227,8 +271,6 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
     <body>
         {% block body %}{% endblock %}
     </body>
-
-
 
 <!--Bas de page-->
 <footer class=\"navbar\" style=\"position:fixed; bottom:0; left:50%; transform: translateX(-50%)\">

@@ -90,45 +90,32 @@ class __TwigTemplate_9535e3c6cc254422b2517f665e1343bc extends Template
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
 
-<!--Nav bar-->
-<nav class=\"navbar navbar-expand-lg bg-primary\" data-bs-theme=\"dark\">
-    <div class=\"container-fluid\">
-      <a class=\"navbar-brand\">Eportfolio</a>
-      <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-        <span class=\"navbar-toggler-icon\"></span>
-      </button>
-      <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
-        <ul class=\"navbar-nav me-auto\">
-          <li class=\"nav-item\">
-            <a class=\"nav-link active\" href=\"accueil\">Accueil</a>
-          </li>
-          <li class=\"nav-item\">
-            <a class=\"nav-link\" href=\"cv\">CV</a>
-          </li>
-          <li class=\"nav-item\">
-            <a class=\"nav-link\" href=\"competence\">Compétence</a>
-          </li>
-        </ul>
-        <form class=\"d-flex\">
-          <a class=\"nav-link\" href=\"connexion\"><button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">Connexion</button></a>
-        </form>
-      </div>
-    </div>
-  </nav>
-
 <!--Contenu-->
-<head>
-  test ceci est le contenu la page d'acceuil de mon site pour le Eportfolio
-</head>
- 
-    <form class=\"d-flex\">
-    <a  class=\"nav-link\" href=\"\"><button class=\"btn btn-secondary my-2 my-sm-0\">A propos</button></a>
-    </form>
+<head>   
+    <br>
+    <bloc1 class=\"card text-white bg-primary mb-3\" style=\"max-width: 50%; text-align: center; margin:0 auto\">
+        <div class=\"card-header\"><strong>Présentation</strong></div>
+        <div class=\"card-body\">
+            <p>Actuellement en première année en Réseaux & Télécommunication à l'IUT de Roanne</p>
+        </div>
+    </bloc1> 
 
-<!--Bas de page-->
-<footer class=\"navbar\" style=\"position:fixed; bottom:0; left:50%; transform: translateX(-50%)\">
-    <a>&copy; 2024 ARBEZ-CARME Thomas. Tous droits réservés.</a>
-</footer>
+    <bloc2 class=\"card text-white bg-primary mb-3\" style=\"max-width: 50%; text-align: center; margin:0 auto\">
+    <div class=\"card-header\"><strong>Information Personnelle</strong></div>
+    <div class=\"card-body\">
+        <p>E-mail : thomas.arbezcarme1@gmail.com<br>
+           Adresse : 96 Avenue de paris, Roanne 42300<br>
+           Téléphone : 06 48 57 72 50<br>
+           
+
+        </p>
+        <form class=\"d-flex\" style=\"margin:0 auto\">
+            <a  class=\"nav-link\" href=\"apropos\"><button class=\"btn btn-secondary my-2 my-sm-0\">A propos</button></a>
+        </form>
+    </div>
+    </bloc2>
+</head>
+
 ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -174,45 +161,32 @@ class __TwigTemplate_9535e3c6cc254422b2517f665e1343bc extends Template
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
 
-<!--Nav bar-->
-<nav class=\"navbar navbar-expand-lg bg-primary\" data-bs-theme=\"dark\">
-    <div class=\"container-fluid\">
-      <a class=\"navbar-brand\">Eportfolio</a>
-      <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-        <span class=\"navbar-toggler-icon\"></span>
-      </button>
-      <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
-        <ul class=\"navbar-nav me-auto\">
-          <li class=\"nav-item\">
-            <a class=\"nav-link active\" href=\"accueil\">Accueil</a>
-          </li>
-          <li class=\"nav-item\">
-            <a class=\"nav-link\" href=\"cv\">CV</a>
-          </li>
-          <li class=\"nav-item\">
-            <a class=\"nav-link\" href=\"competence\">Compétence</a>
-          </li>
-        </ul>
-        <form class=\"d-flex\">
-          <a class=\"nav-link\" href=\"connexion\"><button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">Connexion</button></a>
-        </form>
-      </div>
-    </div>
-  </nav>
-
 <!--Contenu-->
-<head>
-  test ceci est le contenu la page d'acceuil de mon site pour le Eportfolio
-</head>
- 
-    <form class=\"d-flex\">
-    <a  class=\"nav-link\" href=\"\"><button class=\"btn btn-secondary my-2 my-sm-0\">A propos</button></a>
-    </form>
+<head>   
+    <br>
+    <bloc1 class=\"card text-white bg-primary mb-3\" style=\"max-width: 50%; text-align: center; margin:0 auto\">
+        <div class=\"card-header\"><strong>Présentation</strong></div>
+        <div class=\"card-body\">
+            <p>Actuellement en première année en Réseaux & Télécommunication à l'IUT de Roanne</p>
+        </div>
+    </bloc1> 
 
-<!--Bas de page-->
-<footer class=\"navbar\" style=\"position:fixed; bottom:0; left:50%; transform: translateX(-50%)\">
-    <a>&copy; 2024 ARBEZ-CARME Thomas. Tous droits réservés.</a>
-</footer>
+    <bloc2 class=\"card text-white bg-primary mb-3\" style=\"max-width: 50%; text-align: center; margin:0 auto\">
+    <div class=\"card-header\"><strong>Information Personnelle</strong></div>
+    <div class=\"card-body\">
+        <p>E-mail : thomas.arbezcarme1@gmail.com<br>
+           Adresse : 96 Avenue de paris, Roanne 42300<br>
+           Téléphone : 06 48 57 72 50<br>
+           
+
+        </p>
+        <form class=\"d-flex\" style=\"margin:0 auto\">
+            <a  class=\"nav-link\" href=\"apropos\"><button class=\"btn btn-secondary my-2 my-sm-0\">A propos</button></a>
+        </form>
+    </div>
+    </bloc2>
+</head>
+
 {% endblock %}
 ", "fr_accueil/index.html.twig", "C:\\Users\\lafer\\Downloads\\github\\Eportfolio2\\Eportfolio\\templates\\fr_accueil\\index.html.twig");
     }
