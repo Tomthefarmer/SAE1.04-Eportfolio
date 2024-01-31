@@ -285,3 +285,7 @@ b93fc0,127.0.0.1,GET,https://127.0.0.1:8000/en/competence,1706664665,,200,reques
 81ccd9,127.0.0.1,GET,https://127.0.0.1:8000/en/connexion,1706664670,,200,request
 d6b750,127.0.0.1,GET,https://127.0.0.1:8000/en/accueil,1706664677,,200,request
 8c42b4,127.0.0.1,GET,https://127.0.0.1:8000/en/apropos,1706664682,,200,request
+ed16a7,127.0.0.1,GET,https://127.0.0.1:8000/fr/accueil,1706665243,,200,request
+53eba6,127.0.0.1,GET,https://127.0.0.1:8000/fr/competence,1706665248,,200,request
+fc9733,127.0.0.1,GET,https://127.0.0.1:8000/fr/competence,1706665254,,200,request
+cf0547,127.0.0.1,GET,https://127.0.0.1:8000/fr/competence,1706665277,,200,request

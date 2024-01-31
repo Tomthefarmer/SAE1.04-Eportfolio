@@ -93,7 +93,7 @@ class __TwigTemplate_b0854fed3110befc7df30291392b8d65 extends Template
 <!--Contenu-->
 <head>
     <br>
-    <Bloc1 class=\"card text-white bg-primary mb-3\" style=\"max-width: 50%; text-align: center; margin:0 auto\">
+    <div class=\"card text-white bg-primary mb-3\" style=\"max-width: 50%; text-align: center; margin:0 auto\">
         <div class=\"card-header\"><strong>Administrer les Réseaux et l'Internet</strong></div>
         <div>
             <p>Comprendre les principes et standards du codage de l'information</p>
@@ -108,11 +108,9 @@ class __TwigTemplate_b0854fed3110befc7df30291392b8d65 extends Template
             <div class=\"progress\">
                 <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 80%;\" aria-valuenow=\"0\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
             </div>
-            
             <br>
         </div>
-
-    </Bloc1>
+    </div>
 
     <Bloc2 class=\"card text-white bg-primary mb-3\" style=\"max-width: 50%; text-align: center; margin:0 auto\">
         <div class=\"card-header\"><strong>Connecter les Entreprises et les Usagers</strong></div>
@@ -125,7 +123,6 @@ class __TwigTemplate_b0854fed3110befc7df30291392b8d65 extends Template
             <div class=\"progress\">
                 <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 65%;\" aria-valuenow=\"0\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
             </div>
-            
             <br>
         </div>
     </Bloc2>
@@ -145,10 +142,12 @@ class __TwigTemplate_b0854fed3110befc7df30291392b8d65 extends Template
             <div class=\"progress\">
                 <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 70%;\" aria-valuenow=\"0\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
             </div>
-            
             <br>
         </div>
     </Bloc3>
+    <div style=\"text-align: center\">
+        <p>Voici un contenaires</p>
+    </div>
     <br>
 </head>
 
@@ -200,7 +199,7 @@ class __TwigTemplate_b0854fed3110befc7df30291392b8d65 extends Template
 <!--Contenu-->
 <head>
     <br>
-    <Bloc1 class=\"card text-white bg-primary mb-3\" style=\"max-width: 50%; text-align: center; margin:0 auto\">
+    <div class=\"card text-white bg-primary mb-3\" style=\"max-width: 50%; text-align: center; margin:0 auto\">
         <div class=\"card-header\"><strong>Administrer les Réseaux et l'Internet</strong></div>
         <div>
             <p>Comprendre les principes et standards du codage de l'information</p>
@@ -215,11 +214,9 @@ class __TwigTemplate_b0854fed3110befc7df30291392b8d65 extends Template
             <div class=\"progress\">
                 <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 80%;\" aria-valuenow=\"0\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
             </div>
-            
             <br>
         </div>
-
-    </Bloc1>
+    </div>
 
     <Bloc2 class=\"card text-white bg-primary mb-3\" style=\"max-width: 50%; text-align: center; margin:0 auto\">
         <div class=\"card-header\"><strong>Connecter les Entreprises et les Usagers</strong></div>
@@ -232,7 +229,6 @@ class __TwigTemplate_b0854fed3110befc7df30291392b8d65 extends Template
             <div class=\"progress\">
                 <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 65%;\" aria-valuenow=\"0\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
             </div>
-            
             <br>
         </div>
     </Bloc2>
@@ -252,10 +248,12 @@ class __TwigTemplate_b0854fed3110befc7df30291392b8d65 extends Template
             <div class=\"progress\">
                 <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 70%;\" aria-valuenow=\"0\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
             </div>
-            
             <br>
         </div>
     </Bloc3>
+    <div style=\"text-align: center\">
+        <p>Voici un contenaires</p>
+    </div>
     <br>
 </head>
 

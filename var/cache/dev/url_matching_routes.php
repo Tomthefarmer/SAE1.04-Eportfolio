@@ -14,6 +14,7 @@ return [
         '/_profiler/phpinfo' => [[['_route' => '_profiler_phpinfo', '_controller' => 'web_profiler.controller.profiler::phpinfoAction'], null, null, null, false, false, null]],
         '/_profiler/xdebug' => [[['_route' => '_profiler_xdebug', '_controller' => 'web_profiler.controller.profiler::xdebugAction'], null, null, null, false, false, null]],
         '/_profiler/open' => [[['_route' => '_profiler_open_file', '_controller' => 'web_profiler.controller.profiler::openAction'], null, null, null, false, false, null]],
+        '/containaire' => [[['_route' => 'app_containaire', '_controller' => 'App\\Controller\\ContainaireController::index'], null, null, null, false, false, null]],
         '/en/accueil' => [[['_route' => 'app_en_accueil', '_controller' => 'App\\Controller\\EnAccueilController::index'], null, null, null, false, false, null]],
         '/en/apropos' => [[['_route' => 'app_en_apropos', '_controller' => 'App\\Controller\\EnAproposController::index'], null, null, null, false, false, null]],
         '/en/competence' => [[['_route' => 'app_en_competence', '_controller' => 'App\\Controller\\EnCompetenceController::index'], null, null, null, false, false, null]],

@@ -67,7 +67,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
           </li>
         </ul>
         <form class=\"d-flex\">
-            <a class=\"nav-link\" href=\"https://127.0.0.1:8000/fr/connexion\"><button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">EN</button></a>
+            <a class=\"nav-link\" href=\"https://127.0.0.1:8000/en/accueil\"><button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">EN</button></a>
           </form>
         <form class=\"d-flex\">
           <a class=\"nav-link\" href=\"connexion/\"><button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">Connexion</button></a>
@@ -253,7 +253,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
           </li>
         </ul>
         <form class=\"d-flex\">
-            <a class=\"nav-link\" href=\"https://127.0.0.1:8000/fr/connexion\"><button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">EN</button></a>
+            <a class=\"nav-link\" href=\"https://127.0.0.1:8000/en/accueil\"><button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">EN</button></a>
           </form>
         <form class=\"d-flex\">
           <a class=\"nav-link\" href=\"connexion/\"><button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">Connexion</button></a>
